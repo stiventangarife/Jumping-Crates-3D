@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
     //Hola, esto es una prueba para git, soy Stiven!
 
     float jumpForce = 2f;
+    float speed = 1f;
 
     // Start is called before the first frame update
     void Start()
