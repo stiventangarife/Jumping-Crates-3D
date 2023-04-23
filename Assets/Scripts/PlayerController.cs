@@ -63,8 +63,6 @@ public class PlayerController : MonoBehaviour
 
         isTouchObstacle = GameObject.Find("Check Raycast").GetComponent<ConfirmationCube>().auxConfirmation;
 
-        Debug.Log(isTouchObstacle);
-
         if (wood >= valueWood && Input.GetKeyDown(KeyCode.Mouse1) && !isTouchObstacle)
         {
             wood -= 5;
