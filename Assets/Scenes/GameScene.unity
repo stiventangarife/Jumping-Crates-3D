@@ -223,20 +223,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64180320}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.21028072, y: 0, z: -0, w: 0.97764105}
+  m_LocalPosition: {x: 0, y: 0, z: 3.1241417}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1020730208}
   - {fileID: 696376869}
   - {fileID: 1145571405}
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 336013515}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.05, y: -1.4540763}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1001 &105814890
@@ -252,7 +252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4556725737222966677, guid: 6a6d5364636e95e4fa5c27adb21ac05c, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4556725737222966677, guid: 6a6d5364636e95e4fa5c27adb21ac05c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -390,8 +390,8 @@ RectTransform:
   m_Children:
   - {fileID: 1972821866}
   - {fileID: 447159453}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 336013515}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -636,6 +636,41 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &336013514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 336013515}
+  m_Layer: 0
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &336013515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336013514}
+  m_LocalRotation: {x: 0.21028072, y: -0, z: -0, w: 0.97764105}
+  m_LocalPosition: {x: -1.05, y: 2.61, z: -2.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 384417770}
+  - {fileID: 732103337}
+  - {fileID: 64180325}
+  - {fileID: 194550516}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &384417766
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,8 +758,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384417766}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.21028072, y: 0, z: -0, w: 0.97764105}
+  m_LocalPosition: {x: 0, y: 0, z: 3.1241417}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -732,12 +767,12 @@ RectTransform:
   - {fileID: 536092861}
   - {fileID: 1537375811}
   - {fileID: 736065348}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 336013515}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.05, y: -1.4540763}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &431771807
@@ -1714,7 +1749,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6017584611974695946, guid: eaa158eaddbd3ae41ae678bd59c6db9c, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6017584611974695946, guid: eaa158eaddbd3ae41ae678bd59c6db9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1890,20 +1925,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732103332}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.21028072, y: 0, z: -0, w: 0.97764105}
+  m_LocalPosition: {x: 0, y: 0, z: 3.1241417}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 627847118}
   - {fileID: 1724041708}
   - {fileID: 700614970}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 336013515}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.05, y: -1.4540763}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &736065347
@@ -2760,7 +2795,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1537375810
 GameObject:
@@ -3270,7 +3305,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1889621660
 AudioSource:
@@ -3493,7 +3528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2634380122733504567, guid: 39285e48a2868ef4c830b2e1175e067a, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2634380122733504567, guid: 39285e48a2868ef4c830b2e1175e067a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3993,7 +4028,7 @@ Transform:
   - {fileID: 1926254111}
   - {fileID: 637600388}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2047721831
 GameObject:
@@ -4188,7 +4223,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2076983984
 PrefabInstance:
