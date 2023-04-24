@@ -7,12 +7,13 @@ public struct Sounds
 {
     public AudioClip main;
     public AudioClip win;
-    public AudioClip lose;
+    public AudioClip lose;    
 }
 
 public class AudioManager : MonoBehaviour
 {
     private AudioSource _audioSource;
+    public AudioClip jumpSound;
 
     public static AudioManager audioManagerInstance { get; private set; }
     public Sounds sounds;
@@ -76,5 +77,10 @@ public class AudioManager : MonoBehaviour
         _audioSource.loop = false;
         _audioSource.clip = sounds.lose;
         _audioSource.Play();
+    }
+
+    public void PlayJumpSound()
+    {
+        _audioSource.PlayOneShot(jumpSound, 0.2f);
     }
 }

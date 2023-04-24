@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
 
     private UIManager UIManager;
+    private AudioManager audioManager;
 
     public GameObject winScene;
 
@@ -45,6 +46,7 @@ public class PlayerController : MonoBehaviour
     {
         Time.timeScale = 1f;
         UIManager = GameObject.Find("UIManager").GetComponent<UIManager>();
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
     void Update()
     {
@@ -84,6 +86,7 @@ public class PlayerController : MonoBehaviour
             playerRB.AddForce(Vector3.up * 450, ForceMode.Impulse);
             isOnGround = false;
             animator.SetTrigger("Jump");
+            audioManager.PlayJumpSound();
         }
 
         if (transform.position.y < -5f)
