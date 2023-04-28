@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // Control del jugador
-    private float horizontalInput;
-    private float verticalInput;
+    [HideInInspector] public float horizontalInput;
+    [HideInInspector] public float verticalInput;
     private Vector3 _moveVector;
 
-    // Características dle jugador
+    // Caracterï¿½sticas dle jugador
     private float speed = 3;
     public Rigidbody playerRB;
 
@@ -50,8 +50,8 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
 
         _moveVector = Vector3.zero;
         _moveVector.x = horizontalInput * speed * Time.deltaTime;
